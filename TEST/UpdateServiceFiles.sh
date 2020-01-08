@@ -3,7 +3,7 @@
 file=$1
 filedir=$2
 user=prouser
-ip=10.221.156.136
+ip=***.***.***.***
 
 
 #update file
