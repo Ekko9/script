@@ -1,0 +1,2 @@
+/opt/app/jboss-eap-5.2/jboss-as/server/SCTESTReportServer/appdeploy/bi_reports.war.gz
+/opt/app/jboss-eap-5.2/jboss-as/server/SCTESTReportServer/appdeploy/bi_reports.war/WEB-INF/web.xml
