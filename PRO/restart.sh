@@ -17,7 +17,7 @@ read -p "请选择操作类型：" choose
 case $choose in
     1)
     echo "正在重启Service。。。"
-    for i in 10.220.55.{88..102}
+    for i in ***.***.***.{88..102}
     do
 	echo $i
 	ssh -T $user1@$i <<EOF
@@ -40,7 +40,7 @@ EOF
     ;;
     2)
     echo "正在重启Editor。。。"
-    for i in 10.220.44.3{3..5}
+    for i in ***.***.***.3{3..5}
     do
         echo $i
         ssh -T $user1@$i <<EOF
@@ -63,7 +63,7 @@ EOF
     ;;
     3)
     echo "正在重启USER。。。"
-    for i in 10.220.55.{78..80}
+    for i in ***.***.***.{78..80}
     do
         echo $i
         ssh -T $user1@$i <<EOF
@@ -86,9 +86,9 @@ EOF
     ;;
     4)
     echo "正在重启Report。。。"
-    for i in 10.220.55.{70..72}
+    for i in ***.***.***.{70..72}
     do
-        echo $i
+        ech
         ssh -T $user1@$i <<EOF
 	if  ${ps_out} > /dev/null
         then
@@ -109,7 +109,7 @@ EOF
     ;;
     5)
     echo "正在重启Location。。。"
-    for i in 10.220.55.8{5..7}
+    for i in ***.***.***.8{5..7}
     do
 	echo $i
 	ssh -T $user2@$i <<EOF
@@ -132,7 +132,7 @@ EOF
     ;;
     6)
     echo "正在重启Config。。。"
-    for i in 10.220.55.{82..84}
+    for i in ***.***.***.{82..84}
     do
         echo $i
         ssh -T $user2@$i <<EOF
@@ -155,7 +155,7 @@ EOF
     ;;
     7)
     echo "正在重启TRPAPI。。。"
-    for i in 10.220.55.{103..122}
+    for i in ***.***.***.{103..122}
     do
         echo $i
         ssh -T $user2@$i <<EOF
