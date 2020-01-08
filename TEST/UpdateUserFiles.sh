@@ -3,7 +3,7 @@
 file=$1
 filedir=$2
 user=prouser
-ip=10.221.156.137
+ip=***.***.***.***
 
 #update file
 echo -e "\033[33m ================Start file update================ \033[0m"
